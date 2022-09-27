@@ -9,6 +9,6 @@
 // ==/UserScript==
 
 
-const elements = document.querySelectorAll('[aria-label="Close"]');
+const elements = document.querySelectorAll('[aria-label="next"]');
 
 setInterval(function(){ elements[0].click() }, 400)
